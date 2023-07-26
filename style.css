@@ -90,11 +90,24 @@ ul li span:hover{
     background-color: #f3ebeb;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and ((min-width: 360px) and (max-width: 740px)){
+    body{
+        align-items: center;
+    }
     .card{
-        width: 400px;
+        max-width: 250px;
+    }
+    #heading{
+        font-size: 25px;
     }
     #text{
-        width: 220px;
+        width: 120px;
+        font-size: 10.5px;
+    }
+    .btn{
+        text-align: center;
+        width: 50px;
+        font-size: 10px;
+        padding: 10px;
     }
 }
